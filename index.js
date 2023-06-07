@@ -20,20 +20,20 @@ client.on('ready', async () => {
     .setApplicationId('534203414247112723')
     .setType('STREAMING')
     .setURL('https://youtube.com/@mahdoch_md')
-    .setDetails('Free Fire')
-    .setName('Free fire')
-    .setState('PLAYING FREE FIRE') // Replace with your desired state
+    .setDetails('GTA V')
+    .setName('GTA V')
+    .setState('PLAYING GTA V') // Replace with your desired state
     .setParty({
       max: 999,
       current: 666,
       id: Discord.getUUID(),
     })
-    .setAssetsLargeImage('mp:attachments/1101183253546807396/1111776682190327838/IMG-20230526-WA0019.jpg')
-    .setAssetsLargeText('PLAYING FF')
-    .setAssetsSmallImage('mp:attachments/1101183253546807396/1111776682190327838/IMG-20230526-WA0019.jpg')
+    .setAssetsLargeImage('attachments/1101183253546807396/1115999831505248346/41e42edc6848c1a9534eee9176d27141.jpg')
+    .setAssetsLargeText('PLAYING GTA V')
+    .setAssetsSmallImage('mp:attachments/1101183253546807396/1115999831748513882/537b05936b8a2791050881fe7e26ffbb.jpg')
     .setAssetsSmallText('MAHDOCH')
     .addButton('LINK YOUTUBE', 'https://youtube.com/@mahdoch_md')
-    .addButton('LINK FREE FIRE', 'https://ff.garena.com/en/');
+    .addButton('LINK GTA V', 'https://www.rockstargames.com/gta-v');
 
   client.user.setActivity(rpc.toJSON());
   console.log(`${client.user.tag} is ready!`);
