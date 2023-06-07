@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express');
+const token = 'YOUR_DISCORD_TOKEN_GOES_HERE';
 const { joinVoiceChannel } = require('@discordjs/voice');
 const Discord = require('discord.js-selfbot-v13');
 
@@ -76,4 +77,4 @@ client.on('ready', async () => {
 });
 
 // Account Token
-client.login(process.env.TOKEN);
+client.login(token);
